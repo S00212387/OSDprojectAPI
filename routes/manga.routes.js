@@ -3,7 +3,8 @@ const app = express();
 const mangaExpressRoute = express.Router();
 let MangaSchema = require('../model/manga.model');
 
-// Search route
+
+// Search route 
 mangaExpressRoute.route('/search/:key').get(async (req, res) => {
     try {
         let data = await MangaSchema.find({
