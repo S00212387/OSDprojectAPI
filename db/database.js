@@ -1,3 +1,3 @@
 module.exports = {
-    db: 'mongodb://127.0.0.1:27017/web2_project'
+    db: 'mongodb://0.0.0.0:27017/web2_project'
 }
